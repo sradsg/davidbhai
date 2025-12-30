@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- META PIXEL -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init','YOUR_PIXEL_ID');
+fbq('track','PageView');
+</script>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>David Brand</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:system-ui,-apple-system,BlinkMacSystemFont;
+  background:linear-gradient(180deg,#0f4c81,#020617);
+  color:#fff;
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.card{
+  width:100%;
+  max-width:420px;
+  min-height:100vh;
+  padding:20px;
+  background:#0b1e3c;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  text-align:center;
+}
+
+.profile img{
+  width:96px;
+  height:96px;
+  border-radius:50%;
+  object-fit:cover;
+  border:3px solid #22c55e;
+  margin-bottom:10px;
+}
+
+h1{
+  font-size:22px;
+  margin-bottom:6px;
+}
+
+.badges{
+  display:flex;
+  justify-content:center;
+  gap:8px;
+  flex-wrap:wrap;
+  margin-bottom:8px;
+}
+
+.badge{
+  background:#22c55e;
+  color:#000;
+  font-size:11px;
+  padding:5px 10px;
+  border-radius:16px;
+  font-weight:600;
+}
+
+p{
+  font-size:14px;
+  opacity:.9;
+  margin-bottom:10px;
+}
+
+.stats{
+  display:flex;
+  gap:10px;
+  margin:12px 0;
+}
+
+.stat{
+  flex:1;
+  padding:14px 6px;
+  border-radius:14px;
+  font-size:18px;
+  font-weight:700;
+}
+
+.win{background:#16a34a;}
+.rate{background:#f59e0b;}
+
+.btn{
+  width:100%;
+  padding:16px;
+  background:#1da1f2;
+  color:#fff;
+  text-decoration:none;
+  font-weight:700;
+  border-radius:30px;
+  font-size:16px;
+  margin:12px 0;
+  animation:pulse 2s infinite;
+}
+
+@keyframes pulse{
+  0%{box-shadow:0 0 0 0 rgba(29,161,242,.7)}
+  70%{box-shadow:0 0 0 14px rgba(29,161,242,0)}
+  100%{box-shadow:0 0 0 0 rgba(29,161,242,0)}
+}
+
+.features{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:8px;
+  margin-top:10px;
+}
+
+.feature{
+  background:#020617;
+  padding:10px 4px;
+  border-radius:10px;
+  font-size:11px;
+}
+
+.footer{
+  font-size:11px;
+  opacity:.6;
+  margin-top:14px;
+  line-height:1.4;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="card">
+
+  <div class="profile">
+    <img src="logo.jpg" alt="David Brand" loading="lazy">
+  </div>
+
+  <h1>DAVID BRAND</h1>
+
+  <div class="badges">
+    <div class="badge">🏆 Premium Tips</div>
+    <div class="badge">🔴 Live Now</div>
+  </div>
+
+  <p>100k+ Active Members</p>
+
+  <div class="stats">
+    <div class="stat win">96%<br><small>WIN RATE</small></div>
+    <div class="stat rate">4.1 ⭐<br><small>RATING</small></div>
+  </div>
+
+  <a class="btn" href="thankyou.html">Join Telegram Channel</a>
+
+  <div class="features">
+    <div class="feature">✔ Verified</div>
+    <div class="feature">🔒 Secure</div>
+    <div class="feature">📈 Profitable</div>
+    <div class="feature">⭐ Top Rated</div>
+  </div>
+
+  <div class="footer">
+    © 2026 David Brand – All rights reserved.<br>
+    For analysis & educational purpose only.
+  </div>
+
+</div>
+
+</body>
+</html>
